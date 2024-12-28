@@ -1,0 +1,539 @@
+2024-12-28 05:31:41,901 - INFO - Получен номер: 79861145045 от оператора vector
+2024-12-28 05:31:41,910 - INFO - ====== WebDriver manager ======
+2024-12-28 05:31:42,443 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-28 05:31:42,495 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-28 05:31:42,528 - INFO - Driver [C:\Users\ivan\.wdm\drivers\chromedriver\win64\131.0.6778.204\chromedriver-win32/chromedriver.exe] found in cache
+2024-12-28 05:31:51,861 - INFO - Получен номер: 79699148356 от оператора vector
+2024-12-28 05:31:51,864 - INFO - ====== WebDriver manager ======
+2024-12-28 05:31:52,389 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-28 05:31:52,434 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-28 05:31:52,465 - INFO - Driver [C:\Users\ivan\.wdm\drivers\chromedriver\win64\131.0.6778.204\chromedriver-win32/chromedriver.exe] found in cache
+2024-12-28 05:31:58,347 - ERROR - Ошибка при клике: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00D8EC13+23731]
+	(No symbol) [0x00D1C394]
+	(No symbol) [0x00BFBE63]
+	(No symbol) [0x00C3FCE6]
+	(No symbol) [0x00C3FF2B]
+	(No symbol) [0x00C7D892]
+	(No symbol) [0x00C61EA4]
+	(No symbol) [0x00C7B46E]
+	(No symbol) [0x00C61BF6]
+	(No symbol) [0x00C33F35]
+	(No symbol) [0x00C34EBD]
+	GetHandleVerifier [0x0106F0D3+3039603]
+	GetHandleVerifier [0x01082DEA+3120778]
+	GetHandleVerifier [0x0107B592+3089970]
+	GetHandleVerifier [0x00E243B0+635984]
+	(No symbol) [0x00D24DCD]
+	(No symbol) [0x00D22068]
+	(No symbol) [0x00D22205]
+	(No symbol) [0x00D14FD0]
+	BaseThreadInitThunk [0x76157BA9+25]
+	RtlInitializeExceptionChain [0x776BC0CB+107]
+	RtlClearBits [0x776BC04F+191]
+
+2024-12-28 05:32:08,500 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E386660>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/4496d26093e4d2e65afc5cd8e89911ad/element
+2024-12-28 05:32:08,947 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E45C690>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/951fa3cc73eb29f9892fe0f70e41784e/element
+2024-12-28 05:32:12,566 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E45CB90>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/4496d26093e4d2e65afc5cd8e89911ad/element
+2024-12-28 05:32:13,046 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E3AF230>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/951fa3cc73eb29f9892fe0f70e41784e/element
+2024-12-28 05:32:16,611 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E3AF100>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/4496d26093e4d2e65afc5cd8e89911ad/element
+2024-12-28 05:32:17,125 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E3DCCB0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/951fa3cc73eb29f9892fe0f70e41784e/element
+2024-12-28 05:32:20,691 - ERROR - Ошибка при вводе текста: HTTPConnectionPool(host='localhost', port=50982): Max retries exceeded with url: /session/4496d26093e4d2e65afc5cd8e89911ad/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E39F790>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2024-12-28 05:32:21,191 - ERROR - Ошибка при клике: HTTPConnectionPool(host='localhost', port=51009): Max retries exceeded with url: /session/951fa3cc73eb29f9892fe0f70e41784e/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E39F9B0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2024-12-28 05:32:24,775 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E39FCE0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/4496d26093e4d2e65afc5cd8e89911ad/element
+2024-12-28 05:32:25,281 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E444050>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/951fa3cc73eb29f9892fe0f70e41784e/element
+2024-12-28 05:32:28,846 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E444270>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/4496d26093e4d2e65afc5cd8e89911ad/element
+2024-12-28 05:32:29,336 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E444490>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/951fa3cc73eb29f9892fe0f70e41784e/element
+2024-12-28 05:32:32,888 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E4446B0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/4496d26093e4d2e65afc5cd8e89911ad/element
+2024-12-28 05:32:33,378 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E4448D0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/951fa3cc73eb29f9892fe0f70e41784e/element
+2024-12-28 05:32:36,996 - ERROR - Ошибка выполнения скрипта: HTTPConnectionPool(host='localhost', port=50982): Max retries exceeded with url: /session/4496d26093e4d2e65afc5cd8e89911ad/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E444AF0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2024-12-28 05:32:37,475 - ERROR - Ошибка при вводе текста: HTTPConnectionPool(host='localhost', port=51009): Max retries exceeded with url: /session/951fa3cc73eb29f9892fe0f70e41784e/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E444D10>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2024-12-28 05:32:41,088 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E445040>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/4496d26093e4d2e65afc5cd8e89911ad
+2024-12-28 05:32:41,556 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E445480>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/951fa3cc73eb29f9892fe0f70e41784e/element
+2024-12-28 05:32:45,180 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E4456A0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/4496d26093e4d2e65afc5cd8e89911ad
+2024-12-28 05:32:45,644 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E4458C0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/951fa3cc73eb29f9892fe0f70e41784e/element
+2024-12-28 05:32:49,282 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E445AE0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/4496d26093e4d2e65afc5cd8e89911ad
+2024-12-28 05:32:49,747 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E445D00>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/951fa3cc73eb29f9892fe0f70e41784e/element
+2024-12-28 05:32:53,818 - ERROR - Ошибка выполнения скрипта: HTTPConnectionPool(host='localhost', port=51009): Max retries exceeded with url: /session/951fa3cc73eb29f9892fe0f70e41784e/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E446140>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2024-12-28 05:32:57,643 - INFO - Получен номер: 79340019017 от оператора vector
+2024-12-28 05:32:57,645 - INFO - ====== WebDriver manager ======
+2024-12-28 05:32:57,870 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E446580>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/951fa3cc73eb29f9892fe0f70e41784e
+2024-12-28 05:32:58,153 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-28 05:32:58,197 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-28 05:32:58,232 - INFO - Driver [C:\Users\ivan\.wdm\drivers\chromedriver\win64\131.0.6778.204\chromedriver-win32/chromedriver.exe] found in cache
+2024-12-28 05:33:01,942 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E4468B0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/951fa3cc73eb29f9892fe0f70e41784e
+2024-12-28 05:33:06,007 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E39F130>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/951fa3cc73eb29f9892fe0f70e41784e
+2024-12-28 05:33:10,734 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E39FCE0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/16f6b104b709422bf3be61737b5d814f/element
+2024-12-28 05:33:14,343 - INFO - Получен номер: 79820947618 от оператора vector
+2024-12-28 05:33:14,345 - INFO - ====== WebDriver manager ======
+2024-12-28 05:33:14,820 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E39F8A0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/16f6b104b709422bf3be61737b5d814f/element
+2024-12-28 05:33:14,843 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-28 05:33:14,882 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-28 05:33:14,934 - INFO - Driver [C:\Users\ivan\.wdm\drivers\chromedriver\win64\131.0.6778.204\chromedriver-win32/chromedriver.exe] found in cache
+2024-12-28 05:33:18,877 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E39F680>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/16f6b104b709422bf3be61737b5d814f/element
+2024-12-28 05:33:22,957 - ERROR - Ошибка при клике: HTTPConnectionPool(host='localhost', port=51098): Max retries exceeded with url: /session/16f6b104b709422bf3be61737b5d814f/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E39F240>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2024-12-28 05:33:27,008 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E4467A0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/16f6b104b709422bf3be61737b5d814f/element
+2024-12-28 05:33:31,055 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E446140>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/16f6b104b709422bf3be61737b5d814f/element
+2024-12-28 05:33:31,265 - ERROR - Ошибка при клике: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00D8EC13+23731]
+	(No symbol) [0x00D1C394]
+	(No symbol) [0x00BFBE63]
+	(No symbol) [0x00C3FCE6]
+	(No symbol) [0x00C3FF2B]
+	(No symbol) [0x00C7D892]
+	(No symbol) [0x00C61EA4]
+	(No symbol) [0x00C7B46E]
+	(No symbol) [0x00C61BF6]
+	(No symbol) [0x00C33F35]
+	(No symbol) [0x00C34EBD]
+	GetHandleVerifier [0x0106F0D3+3039603]
+	GetHandleVerifier [0x01082DEA+3120778]
+	GetHandleVerifier [0x0107B592+3089970]
+	GetHandleVerifier [0x00E243B0+635984]
+	(No symbol) [0x00D24DCD]
+	(No symbol) [0x00D22068]
+	(No symbol) [0x00D22205]
+	(No symbol) [0x00D14FD0]
+	BaseThreadInitThunk [0x76157BA9+25]
+	RtlInitializeExceptionChain [0x776BC0CB+107]
+	RtlClearBits [0x776BC04F+191]
+
+2024-12-28 05:33:35,131 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E446360>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/16f6b104b709422bf3be61737b5d814f/element
+2024-12-28 05:33:37,363 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E39F460>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/fede6639129417297726a554191f0c01/element
+2024-12-28 05:33:39,207 - ERROR - Ошибка при вводе текста: HTTPConnectionPool(host='localhost', port=51098): Max retries exceeded with url: /session/16f6b104b709422bf3be61737b5d814f/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E445D00>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2024-12-28 05:33:41,423 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E445AE0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/fede6639129417297726a554191f0c01/element
+2024-12-28 05:33:43,256 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A87E4456A0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/16f6b104b709422bf3be61737b5d814f/element
+2024-12-28 05:33:49,667 - INFO - Получен номер: 79820928295 от оператора vector
+2024-12-28 05:33:49,669 - INFO - ====== WebDriver manager ======
+2024-12-28 05:33:50,173 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-28 05:33:50,210 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-28 05:33:50,270 - INFO - Driver [C:\Users\ivan\.wdm\drivers\chromedriver\win64\131.0.6778.204\chromedriver-win32/chromedriver.exe] found in cache
+2024-12-28 05:33:58,249 - INFO - Получен номер: 79808191098 от оператора vector
+2024-12-28 05:33:58,252 - INFO - ====== WebDriver manager ======
+2024-12-28 05:33:58,768 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-28 05:33:58,801 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-28 05:33:58,845 - INFO - Driver [C:\Users\ivan\.wdm\drivers\chromedriver\win64\131.0.6778.204\chromedriver-win32/chromedriver.exe] found in cache
+2024-12-28 05:34:08,113 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:08,442 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:08,772 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:09,100 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:09,451 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:09,834 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:10,103 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:10,435 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:10,790 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:11,106 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:11,439 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:11,776 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:12,127 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:12,443 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:12,781 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:13,180 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:13,243 - INFO - Ожидание SMS-кода...
+2024-12-28 05:34:13,459 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:13,769 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:14,110 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:14,434 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:14,791 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:15,116 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:15,440 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:15,780 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:16,113 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:16,434 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:16,783 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:17,103 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:17,462 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:17,784 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:18,140 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:18,401 - INFO - Ожидание SMS-кода...
+2024-12-28 05:34:18,437 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:18,788 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:19,112 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:19,440 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:19,776 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:20,135 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:20,449 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:20,774 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:21,119 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:21,453 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:21,805 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:22,106 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:22,441 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:22,799 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:23,105 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:23,475 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:23,509 - INFO - Ожидание SMS-кода...
+2024-12-28 05:34:23,772 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:24,124 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:24,470 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:24,806 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:25,101 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:25,446 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:25,767 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:26,111 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:26,510 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:26,794 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:27,100 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:27,476 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:27,794 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:28,149 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:28,449 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:28,604 - INFO - Ожидание SMS-кода...
+2024-12-28 05:34:28,784 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:29,104 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:29,465 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:29,776 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:30,106 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:30,438 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:30,785 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:31,107 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:31,433 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:31,780 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:32,128 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:32,435 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:32,768 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:33,105 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:33,459 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:33,744 - INFO - Ожидание SMS-кода...
+2024-12-28 05:34:33,780 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:34,109 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:34,438 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:34,844 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:35,136 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:35,441 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:35,773 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:36,116 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:36,487 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:36,770 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:37,104 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:37,456 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:37,771 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:38,126 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:38,439 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:38,781 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:38,836 - INFO - Ожидание SMS-кода...
+2024-12-28 05:34:39,105 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:39,438 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:39,777 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:40,223 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:40,442 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:40,770 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:41,099 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:41,443 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:41,852 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:42,111 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:42,435 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:42,775 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:43,098 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:43,435 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:43,771 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:43,939 - INFO - Ожидание SMS-кода...
+2024-12-28 05:34:44,125 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:44,430 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:44,766 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:45,099 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:45,462 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:45,768 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:46,103 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:46,455 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:46,790 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:47,103 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:47,445 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:47,772 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:48,115 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:48,470 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:48,785 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:49,018 - INFO - Ожидание SMS-кода...
+2024-12-28 05:34:49,099 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:49,454 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:49,771 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:50,112 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:50,434 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:50,785 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:51,104 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:51,449 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:51,766 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:52,113 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:52,444 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:52,778 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:53,114 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:53,473 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:53,771 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:54,104 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:54,131 - INFO - Ожидание SMS-кода...
+2024-12-28 05:34:54,445 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:54,785 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:55,109 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:55,433 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:55,779 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:56,126 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:56,435 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:56,766 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:57,100 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:57,446 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:57,769 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:58,104 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:58,434 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:58,786 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:59,100 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:34:59,205 - INFO - Ожидание SMS-кода...
+2024-12-28 05:34:59,435 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:34:59,762 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:00,141 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:00,463 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:00,798 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:01,107 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:01,458 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:01,769 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:02,112 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:02,431 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:02,782 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:03,104 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:03,437 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:03,774 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:04,115 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:04,291 - INFO - Ожидание SMS-кода...
+2024-12-28 05:35:04,452 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:04,776 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:05,103 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:05,454 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:05,790 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:06,103 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:06,433 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:06,805 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:07,099 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:07,447 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:07,768 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:08,115 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:08,437 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:08,767 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:09,102 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:09,404 - INFO - Ожидание SMS-кода...
+2024-12-28 05:35:09,455 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:09,770 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:10,105 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:10,450 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:10,786 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:11,101 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:11,483 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:11,765 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:12,118 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:12,435 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:12,767 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:13,105 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:13,463 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:13,768 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:14,104 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:14,453 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:14,501 - INFO - Ожидание SMS-кода...
+2024-12-28 05:35:14,793 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:15,099 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:15,432 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:15,772 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:16,114 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:16,433 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:16,769 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:17,098 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:17,443 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:17,793 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:18,104 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:18,449 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:18,781 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:19,106 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:19,439 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:19,602 - INFO - Ожидание SMS-кода...
+2024-12-28 05:35:19,769 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:20,128 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:20,439 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:20,767 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:21,130 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:21,457 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:21,787 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:22,144 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:22,438 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:22,781 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:23,113 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:23,568 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:23,775 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:24,124 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:24,453 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:24,805 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:24,823 - INFO - Получен SMS-код: 182421
+2024-12-28 05:35:25,151 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:25,450 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:25,773 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:26,133 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:26,436 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:26,784 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:27,102 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:27,434 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:27,766 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:28,108 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:28,436 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:28,768 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:29,099 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:29,480 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:29,768 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:30,114 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:30,437 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:30,786 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:31,102 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:31,434 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:31,769 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:32,121 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:32,433 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:32,766 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:33,108 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:33,456 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:33,769 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:34,100 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:34,433 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:34,784 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:35,099 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:35,168 - ERROR - Ошибка при вводе текста: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00D8EC13+23731]
+	(No symbol) [0x00D1C394]
+	(No symbol) [0x00BFBE63]
+	(No symbol) [0x00C3FCE6]
+	(No symbol) [0x00C3FF2B]
+	(No symbol) [0x00C7D892]
+	(No symbol) [0x00C61EA4]
+	(No symbol) [0x00C7B46E]
+	(No symbol) [0x00C61BF6]
+	(No symbol) [0x00C33F35]
+	(No symbol) [0x00C34EBD]
+	GetHandleVerifier [0x0106F0D3+3039603]
+	GetHandleVerifier [0x01082DEA+3120778]
+	GetHandleVerifier [0x0107B592+3089970]
+	GetHandleVerifier [0x00E243B0+635984]
+	(No symbol) [0x00D24DCD]
+	(No symbol) [0x00D22068]
+	(No symbol) [0x00D22205]
+	(No symbol) [0x00D14FD0]
+	BaseThreadInitThunk [0x76157BA9+25]
+	RtlInitializeExceptionChain [0x776BC0CB+107]
+	RtlClearBits [0x776BC04F+191]
+
+2024-12-28 05:35:35,440 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:35,768 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:36,116 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:36,436 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:36,761 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:37,101 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:37,449 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:37,771 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:38,100 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:38,432 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:38,811 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:39,108 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:39,433 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:39,764 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:40,149 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:40,489 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:40,766 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:41,104 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:41,469 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:41,765 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:42,100 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:42,438 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:42,785 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:43,111 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:43,448 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:43,768 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:44,114 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:44,432 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:44,771 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:45,101 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:45,435 - ERROR - Ошибка при вводе текста: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00D8EC13+23731]
+	(No symbol) [0x00D1C394]
+	(No symbol) [0x00BFBE63]
+	(No symbol) [0x00C3FCE6]
+	(No symbol) [0x00C3FF2B]
+	(No symbol) [0x00C7D892]
+	(No symbol) [0x00C61EA4]
+	(No symbol) [0x00C7B46E]
+	(No symbol) [0x00C61BF6]
+	(No symbol) [0x00C33F35]
+	(No symbol) [0x00C34EBD]
+	GetHandleVerifier [0x0106F0D3+3039603]
+	GetHandleVerifier [0x01082DEA+3120778]
+	GetHandleVerifier [0x0107B592+3089970]
+	GetHandleVerifier [0x00E243B0+635984]
+	(No symbol) [0x00D24DCD]
+	(No symbol) [0x00D22068]
+	(No symbol) [0x00D22205]
+	(No symbol) [0x00D14FD0]
+	BaseThreadInitThunk [0x76157BA9+25]
+	RtlInitializeExceptionChain [0x776BC0CB+107]
+	RtlClearBits [0x776BC04F+191]
+
+2024-12-28 05:35:45,437 - INFO - Данные аккаунта сохранены: Анания Данченков - 79808191098 - user492478:StrongPassword123!
+2024-12-28 05:35:45,438 - INFO - Регистрация успешно завершена!
+2024-12-28 05:35:45,453 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:45,769 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:46,101 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:46,433 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:46,787 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:47,101 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:47,450 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:47,767 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:48,109 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:48,442 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:48,766 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:49,097 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:49,470 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:49,765 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:50,102 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:50,477 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:50,808 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:51,102 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:51,433 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:51,769 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:52,136 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:52,433 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:52,768 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:53,100 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:53,451 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:53,764 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:54,099 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:54,473 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:54,795 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:55,099 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:55,432 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:55,764 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:56,104 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:56,429 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:56,765 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:57,097 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:57,453 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:57,786 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:58,169 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:58,433 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:58,814 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:59,097 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:35:59,442 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:35:59,772 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:36:00,116 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:36:00,431 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:36:00,765 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:36:01,117 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:36:01,491 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:36:01,772 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:36:02,101 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:36:02,476 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:36:02,781 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:36:03,100 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:36:03,428 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:36:03,762 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:36:04,120 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:36:04,438 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:36:04,765 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:36:05,097 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:36:05,446 - ERROR - Ошибка получения номера: noMoney
+2024-12-28 05:36:05,765 - ERROR - Ошибка получения номера: noNumber
+2024-12-28 05:36:06,096 - ERROR - Ошибка получения номера: noMoney
